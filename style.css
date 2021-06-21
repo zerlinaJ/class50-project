@@ -1,0 +1,65 @@
+
+h3{
+    color: lightcoral;
+    border: 2px solid dimgray;
+ /*   background-color: dimgrey;*/
+}
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body{
+    background-color:whitesmoke;
+    
+}
+p{
+    font-family: comic sans ms;
+    font-weight: italic;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:lightgoldenrodyellow;
+   margin:10px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+
+.heading{
+    position:absolute;
+    text-align:top;
+    top: 44%;
+    left: 50%;
+    color:white;
+   transform: translate(-50%, -60%);
+}
+
+.desc {
+ 
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ol,ul{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
